@@ -59,7 +59,7 @@ projects[token] = "1.5"
 projects[transliteration] = "3.1"
 projects[variable] = "2.2"
 projects[views] = "3.8"
-projects[views_bulk_operations] = "3.8"
+projects[views_bulk_operations] = "3.2"
 projects[wysiwyg] = "2.2"
 
 
