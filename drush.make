@@ -18,6 +18,12 @@ libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][download][type] = "svn"
 libraries[tinymce][download][url] = "https://svn.library.cornell.edu/tinymce-clone/trunk"
 
+projects[cul_hours][download][type] = "svn"
+projects[cul_hours][download][url] = "https://svn.library.cornell.edu/cul_hours/branches/drupal7/module"
+projects[cul_hours][revision] = "HEAD"
+projects[cul_hours][subdir] = "custom"
+projects[cul_hours][type] = "module"
+
 projects[admin_menu][version] = "3.0-rc4"
 projects[bootstrap][version] = "3.0"
 projects[conch][version] = "2.0"
