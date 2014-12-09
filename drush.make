@@ -53,6 +53,7 @@ projects[law_library_bootstrap][download][url] = "git@github.com:cul-it/law-libr
 projects[law_library_bootstrap][type] = "theme"
 projects[libraries][version] = "2.1"
 projects[link][version] = "1.3"
+projects[menu_block][version] = "2.4"
 projects[migrate][version] = "2.5"
 projects[migrate_extras][version] = "2.5"
 projects[navin][version] = "1.0-beta2"
