@@ -20,8 +20,7 @@ libraries[tinymce][download][url] = "https://svn.library.cornell.edu/tinymce-clo
 
 projects[cul_hours][download][type] = "git"
 projects[cul_hours][download][url] = "https://github.com/cul-it/mainsite-hours.git"
-projects[cul_hours][branch] = "law"
-projects[cul_hours][revision] = "HEAD"
+projects[cul_hours][download][branch] = "law"
 projects[cul_hours][type] = "module"
 
 projects[admin_menu][version] = "3.0-rc4"
