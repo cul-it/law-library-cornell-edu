@@ -85,4 +85,4 @@ projects[views_bootstrap][version] = "3.x-dev"
 projects[views_php][version] = "1.0-alpha1"
 projects[views_bulk_operations][version] = "3.2"
 projects[wysiwyg][version] = "2.2"
-
+projects[backup_migrate][version] = "3.0"
