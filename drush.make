@@ -5,11 +5,6 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.32"
 
-
-libraries[superfish][destination] = libraries
-libraries[superfish][directory_name] = "superfish"
-libraries[superfish][download][type] = "git"
-libraries[superfish][download][url] = "git://github.com/mehrpadin/Superfish-for-Drupal.git"
 libraries[owlcarousel][destination] = libraries
 libraries[owlcarousel][directory_name] = "owlcarousel"
 libraries[owlcarousel][download][type] = "url"
@@ -74,7 +69,6 @@ projects[site_under_mantenance][location] = "http://featureserver.stg.library.co
 projects[site_under_mantenance][subdir] = "custom"
 projects[site_under_mantenance][type] = "module"
 projects[strongarm][version] = "2.0"
-projects[superfish][version] = "1.8"
 projects[superfish][version] = "1.9"
 projects[tej][version] = "2.0-alpha2"
 projects[token][version] = "1.5"
