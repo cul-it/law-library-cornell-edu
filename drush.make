@@ -5,8 +5,6 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.32"
 
-
-
 libraries[owlcarousel][destination] = libraries
 libraries[owlcarousel][directory_name] = "owlcarousel"
 libraries[owlcarousel][download][type] = "url"
