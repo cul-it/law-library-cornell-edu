@@ -3,7 +3,7 @@
 
 core = 7.x
 api = 2
-projects[drupal][version] = "7.32"
+projects[drupal][version] = "7.34"
 
 libraries[owlcarousel][destination] = libraries
 libraries[owlcarousel][directory_name] = "owlcarousel"
@@ -30,7 +30,7 @@ projects[features][version] =  "2.2"
 projects[features_extra] = "1.0-beta1"
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds_xpathparser][version] = "1.0-beta4"
-projects[google_analytics][version] = "2.0"
+projects[google_analytics][version] = "2.1"
 projects[google_cse][patch][] = "http://drupal.org/files/google_cse-1479198-0.patch"
 projects[google_cse][version] = "1.x-dev"
 projects[google_cse][version] = "1.x-dev"
@@ -78,3 +78,4 @@ projects[views_bootstrap][version] = "3.x-dev"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_php][version] = "1.0-alpha1"
 projects[wysiwyg][version] = "2.2"
+projects[webform][version] = "4.2"
