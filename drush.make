@@ -1,30 +1,30 @@
 ;; drush make file for law.test2.library.cornell.edu
 ;;
-;;
 
 core = 7.x
 api = 2
 projects[drupal][version] = "7.32"
+
+
 
 libraries[owlcarousel][destination] = libraries
 libraries[owlcarousel][directory_name] = "owlcarousel"
 libraries[owlcarousel][download][type] = "url"
 libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
 libraries[tinymce][directory_name] = "tinymce"
-libraries[tinymce][download][type] = "svn"
-libraries[tinymce][download][url] = "https://svn.library.cornell.edu/tinymce-clone/trunk"
-
-projects[cul_hours][download][type] = "git"
-projects[cul_hours][download][url] = "https://github.com/cul-it/mainsite-hours.git"
-projects[cul_hours][download][branch] = "law"
-projects[cul_hours][type] = "module"
-
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://sourceforge.net/projects/tinymce/files/latest/download"
 projects[admin_menu][version] = "3.0-rc4"
+projects[backup_migrate][version] = "3.0"
 projects[bootstrap][version] = "3.0"
 projects[conch][version] = "2.0"
-projects[custom_breadcrumbs][version] = "2.0-beta1"
 projects[css_injector][version] = "1.10"
 projects[ctools][version] = "1.4"
+projects[cul_hours][download][branch] = "law"
+projects[cul_hours][download][type] = "git"
+projects[cul_hours][download][url] = "https://github.com/cul-it/mainsite-hours.git"
+projects[cul_hours][type] = "module"
+projects[custom_breadcrumbs][version] = "2.0-beta1"
 projects[date][version] = "2.8"
 projects[delta][version] = "3.0-beta11"
 projects[devel][version] = "1.5"
@@ -40,8 +40,8 @@ projects[imagefield_crop][version] = "1.1"
 projects[imce][version] = "1.9"
 projects[imce_wysiwyg][version] = "1.0"
 projects[job_scheduler][version] = "2.0-alpha3"
-projects[jquery_update][version] = "2.x-dev"
 projects[jqmulti][version] = "1.0"
+projects[jquery_update][version] = "2.x-dev"
 projects[law_library_bootstrap][directory_name] = "law_library_bootstrap"
 projects[law_library_bootstrap][download][branch] = "master"
 projects[law_library_bootstrap][download][type] = "git"
@@ -77,7 +77,6 @@ projects[transliteration][version] = "3.1"
 projects[variable][version] = "2.2"
 projects[views][version] = "3.8"
 projects[views_bootstrap][version] = "3.x-dev"
-projects[views_php][version] = "1.0-alpha1"
 projects[views_bulk_operations][version] = "3.2"
+projects[views_php][version] = "1.0-alpha1"
 projects[wysiwyg][version] = "2.2"
-projects[backup_migrate][version] = "3.0"
