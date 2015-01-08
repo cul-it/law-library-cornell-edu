@@ -15,6 +15,7 @@ libraries[tinymce][download][url] = "http://sourceforge.net/projects/tinymce/fil
 projects[admin_menu][version] = "3.0-rc4"
 projects[backup_migrate][version] = "3.0"
 projects[bootstrap][version] = "3.0"
+projects[ckeditor][version] = "1.16"
 projects[conch][version] = "2.0"
 projects[css_injector][version] = "1.10"
 projects[ctools][version] = "1.4"
