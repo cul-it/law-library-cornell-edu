@@ -5,9 +5,8 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.43"
 
-libraries[owlcarousel][destination] = libraries
 libraries[owlcarousel][directory_name] = "owlcarousel"
-libraries[owlcarousel][download][type] = "url"
+libraries[owlcarousel][download][type] = "get"
 libraries[owlcarousel][download][url] = "http://www.owlcarousel.owlgraphic.com/download/owl.carousel.zip"
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][download][type] = "get"
