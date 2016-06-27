@@ -3,7 +3,7 @@
 
 core = 7.x
 api = 2
-projects[drupal][version] = "7.43"
+projects[drupal][version] = "7.44"
 
 libraries[owlcarousel][directory_name] = "owlcarousel"
 libraries[owlcarousel][download][type] = "get"
@@ -92,7 +92,7 @@ projects[themekey][version] = "3.4"
 projects[token][version] = "1.6"
 projects[transliteration][version] = "3.1"
 projects[variable][version] = "2.5"
-projects[views][version] = "3.13"
+projects[views][version] = "3.14"
 projects[views_bootstrap][version] = "3.1"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_php][version] = "1.0-alpha3"
