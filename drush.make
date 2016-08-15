@@ -3,7 +3,7 @@
 
 core = 7.x
 api = 2
-projects[drupal][version] = "7.44"
+projects[drupal][version] = "7.50"
 
 libraries[owlcarousel][directory_name] = "owlcarousel"
 libraries[owlcarousel][download][type] = "get"
