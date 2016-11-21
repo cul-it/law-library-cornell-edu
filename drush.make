@@ -3,7 +3,7 @@
 
 core = 7.x
 api = 2
-projects[drupal][version] = "7.50"
+projects[drupal][version] = "7.52"
 
 libraries[owlcarousel][directory_name] = "owlcarousel"
 libraries[owlcarousel][download][type] = "get"
@@ -21,7 +21,7 @@ projects[ares][download][branch] = "drupal7"
 projects[ares][download][type] = "git"
 projects[ares][download][url] = "git@github.com:cul-it/ares.git"
 projects[backup_migrate][version] = "3.1"
-projects[bootstrap][version] = "3.4"
+projects[bootstrap][version] = "3.8"
 projects[ckeditor][version] = "1.17"
 projects[conch][version] = "2.0"
 projects[computed_field][version] = "1.1"
